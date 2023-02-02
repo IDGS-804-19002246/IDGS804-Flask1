@@ -15,6 +15,14 @@ def user(user):
 def num(i):
     return 'Tu calificacion es: {}'.format(i)
 
+#pasar 
+@app.route("/suma/<float:a>/<float:b>")
+def suma(a,b):
+    return 'La suma es: {}'.format(a+b)
+
+
+
+
 #pasar varios parametros
 @app.route("/users/<int:i>/<string:u>")
 def users(i,u):

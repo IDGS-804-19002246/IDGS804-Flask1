@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap-responsive.css">
+    <style>
+        body{
+            padding-top: 60px;
+        }
+        .tr-head{
+            background: #dff0d8;
+        }
+    </style>
+    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap-responsive.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                {% block content %}
+                {% endblock %}
+                <a href="" class="brand">UTÑ-ISDG</a>
+            </div>
+
+            <ul class="nav">
+                <li class="active"><a href=""><i class="icon-home icon-white"></i>Index</a></li>
+
+                <li class=""><a href=""><i class="icon-user icon-white"></i>Usuarios</a></li>
+
+                <li class=""><a href=""><i class="icon-user icon-white"></i>Alumnos</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+</body>
+</html>
