@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return 'Que tranza perros >:D'
+    return 'Que tranza >:D'
 
 #pasar un string
 @app.route("/user/<string:user>")

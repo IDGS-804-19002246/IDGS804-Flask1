@@ -3,11 +3,11 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return 'Que tranza perros >:D'
+    return 'Que tranza >:D'
 
 @app.route("/hola")
 def hola():
-    return 'Hola perros >:D'
+    return 'Hola >:D'
 
 
 if __name__ == '__main__':
