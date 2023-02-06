@@ -1,7 +1,7 @@
 from flask import Flask,render_template
 app = Flask(__name__)
 
-@app.route("/datos")
+@app.route("/datos/")
 def datos():
     nombre = 'juan'
     lis = ['uno','dos','tres','cuatro']

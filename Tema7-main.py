@@ -1,12 +1,12 @@
 from flask import Flask,render_template,request
 app = Flask(__name__)
 
-@app.route("/operasbas")
+@app.route("/operasbas/")
 def operasbas():
     return render_template("operasbas.html")
 
 
-@app.route("/res",methods=['GET','POST'])
+@app.route("/res/",methods=['GET','POST'])
 def res():
     n1 = request.form.get('txtNum1')
     n2 = request.form.get('txtNum2')
