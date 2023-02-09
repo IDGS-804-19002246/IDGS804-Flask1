@@ -8,7 +8,7 @@ def cine():
         can = int(request.form.get('can'))
         tag = request.form.get('tar')
         Nbol = int(request.form.get('Nbol'))
-        fin = Nbol * 1200
+        fin = Nbol * 12
         
         if Nbol == 3 or Nbol == 4 or Nbol == 5:
             fin = fin * 0.9
